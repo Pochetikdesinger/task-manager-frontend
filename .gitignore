@@ -1,23 +1,13 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Dependencias
+node_modules/
 
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
+# Archivos generados por React
+build/
+*.log
 
-# testing
-/coverage
+# Archivos de IDE
+.idea/
+*.iml
 
-# production
-/build
-
-# misc
-.DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# Archivos de configuración local
+.env
